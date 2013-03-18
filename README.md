@@ -1,6 +1,6 @@
 #WSQRotaryView
 
-WSQRotaryView is an [open-source][LICENSE] rotating [radial menu][radial-menu] implementation, created by [Why Status Quo, Inc][wsq-link]. It supports custom colors, fonts, icons and sizes.
+WSQRotaryView is an [open-source][LICENSE] rotating radial menu implementation, created by [Why Status Quo, Inc][wsq-link]. It supports custom colors, fonts, icons and sizes.
 
 Design Goals:
     
@@ -21,7 +21,8 @@ Limitations:
   - Requires iOS 5.0 & later (for ARC, the new objective-c literals syntax, and weak references)
 
 Video Demo:
- [![Video Screenshot][video-screenshot]][video-demo]
+
+[![Video Screenshot][video-screenshot]][video-demo]
 
 Legal Stuff:
 
@@ -33,6 +34,5 @@ Legal Stuff:
 
  [LICENSE]: http://opensource.org/licenses/CPAL-1.0
  [wsq-link]: http://whystatusquo.com
- [radial-menu]: link-to-radial-menu
  [video-demo]: http://www.youtube.com/watch?v=F3Gy7q64B-E
  [video-screenshot]: http://i.imgur.com/C3ryQuom.png
