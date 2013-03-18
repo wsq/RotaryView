@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2344A31316F769A100FD0224 /* segment_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2344A31116F769A100FD0224 /* segment_twitter.png */; };
+		2344A31416F769A100FD0224 /* segment_twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2344A31216F769A100FD0224 /* segment_twitter@2x.png */; };
+		2344A31716F76C0600FD0224 /* segment_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2344A31516F76C0600FD0224 /* segment_phone.png */; };
+		2344A31816F76C0600FD0224 /* segment_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2344A31616F76C0600FD0224 /* segment_phone@2x.png */; };
+		2344A31B16F76D3200FD0224 /* segment_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 2344A31916F76D3200FD0224 /* segment_email.png */; };
+		2344A31C16F76D3200FD0224 /* segment_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2344A31A16F76D3200FD0224 /* segment_email@2x.png */; };
+		2383128E16F6A5FE00E5B07B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2383128D16F6A5FE00E5B07B /* UIKit.framework */; };
+		2383129016F6A5FE00E5B07B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2383128F16F6A5FE00E5B07B /* Foundation.framework */; };
+		2383129216F6A5FE00E5B07B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2383129116F6A5FE00E5B07B /* CoreGraphics.framework */; };
+		2383129816F6A5FE00E5B07B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2383129616F6A5FE00E5B07B /* InfoPlist.strings */; };
+		2383129A16F6A5FE00E5B07B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2383129916F6A5FE00E5B07B /* main.m */; };
+		2383129E16F6A5FE00E5B07B /* WSQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2383129D16F6A5FE00E5B07B /* WSQAppDelegate.m */; };
+		238312A016F6A5FE00E5B07B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2383129F16F6A5FE00E5B07B /* Default.png */; };
+		238312A216F6A5FE00E5B07B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 238312A116F6A5FE00E5B07B /* Default@2x.png */; };
+		238312A416F6A5FE00E5B07B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 238312A316F6A5FE00E5B07B /* Default-568h@2x.png */; };
+		238312A716F6A5FE00E5B07B /* WSQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238312A616F6A5FE00E5B07B /* WSQViewController.m */; };
+		238312AA16F6A5FE00E5B07B /* WSQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 238312A816F6A5FE00E5B07B /* WSQViewController.xib */; };
+		238312B716F6A82A00E5B07B /* WSQRotaryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238312B616F6A82A00E5B07B /* WSQRotaryView.framework */; };
+		238312BB16F6AA4100E5B07B /* segment_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 238312B916F6AA4100E5B07B /* segment_facebook.png */; };
+		238312BC16F6AA4100E5B07B /* segment_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 238312BA16F6AA4100E5B07B /* segment_facebook@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2344A31116F769A100FD0224 /* segment_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_twitter.png; sourceTree = "<group>"; };
+		2344A31216F769A100FD0224 /* segment_twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment_twitter@2x.png"; sourceTree = "<group>"; };
+		2344A31516F76C0600FD0224 /* segment_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_phone.png; sourceTree = "<group>"; };
+		2344A31616F76C0600FD0224 /* segment_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment_phone@2x.png"; sourceTree = "<group>"; };
+		2344A31916F76D3200FD0224 /* segment_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_email.png; sourceTree = "<group>"; };
+		2344A31A16F76D3200FD0224 /* segment_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment_email@2x.png"; sourceTree = "<group>"; };
+		2383128A16F6A5FE00E5B07B /* WSQRotaryViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSQRotaryViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2383128D16F6A5FE00E5B07B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2383128F16F6A5FE00E5B07B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2383129116F6A5FE00E5B07B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2383129516F6A5FE00E5B07B /* WSQRotaryViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSQRotaryViewExample-Info.plist"; sourceTree = "<group>"; };
+		2383129716F6A5FE00E5B07B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2383129916F6A5FE00E5B07B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2383129B16F6A5FE00E5B07B /* WSQRotaryViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WSQRotaryViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		2383129C16F6A5FE00E5B07B /* WSQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSQAppDelegate.h; sourceTree = "<group>"; };
+		2383129D16F6A5FE00E5B07B /* WSQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSQAppDelegate.m; sourceTree = "<group>"; };
+		2383129F16F6A5FE00E5B07B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		238312A116F6A5FE00E5B07B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		238312A316F6A5FE00E5B07B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		238312A516F6A5FE00E5B07B /* WSQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSQViewController.h; sourceTree = "<group>"; };
+		238312A616F6A5FE00E5B07B /* WSQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSQViewController.m; sourceTree = "<group>"; };
+		238312A916F6A5FE00E5B07B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WSQViewController.xib; sourceTree = "<group>"; };
+		238312B616F6A82A00E5B07B /* WSQRotaryView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WSQRotaryView.framework; path = ../../WSQRotaryView.framework; sourceTree = "<group>"; };
+		238312B916F6AA4100E5B07B /* segment_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_facebook.png; sourceTree = "<group>"; };
+		238312BA16F6AA4100E5B07B /* segment_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment_facebook@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2383128716F6A5FE00E5B07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2383128E16F6A5FE00E5B07B /* UIKit.framework in Frameworks */,
+				2383129016F6A5FE00E5B07B /* Foundation.framework in Frameworks */,
+				2383129216F6A5FE00E5B07B /* CoreGraphics.framework in Frameworks */,
+				238312B716F6A82A00E5B07B /* WSQRotaryView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2383128116F6A5FE00E5B07B = {
+			isa = PBXGroup;
+			children = (
+				2383129316F6A5FE00E5B07B /* WSQRotaryViewExample */,
+				2383128C16F6A5FE00E5B07B /* Frameworks */,
+				2383128B16F6A5FE00E5B07B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2383128B16F6A5FE00E5B07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2383128A16F6A5FE00E5B07B /* WSQRotaryViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2383128C16F6A5FE00E5B07B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238312B616F6A82A00E5B07B /* WSQRotaryView.framework */,
+				2383128D16F6A5FE00E5B07B /* UIKit.framework */,
+				2383128F16F6A5FE00E5B07B /* Foundation.framework */,
+				2383129116F6A5FE00E5B07B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2383129316F6A5FE00E5B07B /* WSQRotaryViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				2383129C16F6A5FE00E5B07B /* WSQAppDelegate.h */,
+				2383129D16F6A5FE00E5B07B /* WSQAppDelegate.m */,
+				238312A516F6A5FE00E5B07B /* WSQViewController.h */,
+				238312A616F6A5FE00E5B07B /* WSQViewController.m */,
+				238312A816F6A5FE00E5B07B /* WSQViewController.xib */,
+				238312B816F6A97E00E5B07B /* Resources */,
+				2383129416F6A5FE00E5B07B /* Supporting Files */,
+			);
+			path = WSQRotaryViewExample;
+			sourceTree = "<group>";
+		};
+		2383129416F6A5FE00E5B07B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2383129516F6A5FE00E5B07B /* WSQRotaryViewExample-Info.plist */,
+				2383129616F6A5FE00E5B07B /* InfoPlist.strings */,
+				2383129916F6A5FE00E5B07B /* main.m */,
+				2383129B16F6A5FE00E5B07B /* WSQRotaryViewExample-Prefix.pch */,
+				2383129F16F6A5FE00E5B07B /* Default.png */,
+				238312A116F6A5FE00E5B07B /* Default@2x.png */,
+				238312A316F6A5FE00E5B07B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		238312B816F6A97E00E5B07B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2344A31916F76D3200FD0224 /* segment_email.png */,
+				2344A31A16F76D3200FD0224 /* segment_email@2x.png */,
+				2344A31516F76C0600FD0224 /* segment_phone.png */,
+				2344A31616F76C0600FD0224 /* segment_phone@2x.png */,
+				2344A31116F769A100FD0224 /* segment_twitter.png */,
+				2344A31216F769A100FD0224 /* segment_twitter@2x.png */,
+				238312B916F6AA4100E5B07B /* segment_facebook.png */,
+				238312BA16F6AA4100E5B07B /* segment_facebook@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2383128916F6A5FE00E5B07B /* WSQRotaryViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238312AD16F6A5FE00E5B07B /* Build configuration list for PBXNativeTarget "WSQRotaryViewExample" */;
+			buildPhases = (
+				2383128616F6A5FE00E5B07B /* Sources */,
+				2383128716F6A5FE00E5B07B /* Frameworks */,
+				2383128816F6A5FE00E5B07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSQRotaryViewExample;
+			productName = WSQRotaryViewExample;
+			productReference = 2383128A16F6A5FE00E5B07B /* WSQRotaryViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2383128216F6A5FE00E5B07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WSQ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Why Status Quo? Inc.";
+			};
+			buildConfigurationList = 2383128516F6A5FE00E5B07B /* Build configuration list for PBXProject "WSQRotaryViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2383128116F6A5FE00E5B07B;
+			productRefGroup = 2383128B16F6A5FE00E5B07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2383128916F6A5FE00E5B07B /* WSQRotaryViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2383128816F6A5FE00E5B07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2383129816F6A5FE00E5B07B /* InfoPlist.strings in Resources */,
+				238312A016F6A5FE00E5B07B /* Default.png in Resources */,
+				238312A216F6A5FE00E5B07B /* Default@2x.png in Resources */,
+				238312A416F6A5FE00E5B07B /* Default-568h@2x.png in Resources */,
+				238312AA16F6A5FE00E5B07B /* WSQViewController.xib in Resources */,
+				238312BB16F6AA4100E5B07B /* segment_facebook.png in Resources */,
+				238312BC16F6AA4100E5B07B /* segment_facebook@2x.png in Resources */,
+				2344A31316F769A100FD0224 /* segment_twitter.png in Resources */,
+				2344A31416F769A100FD0224 /* segment_twitter@2x.png in Resources */,
+				2344A31716F76C0600FD0224 /* segment_phone.png in Resources */,
+				2344A31816F76C0600FD0224 /* segment_phone@2x.png in Resources */,
+				2344A31B16F76D3200FD0224 /* segment_email.png in Resources */,
+				2344A31C16F76D3200FD0224 /* segment_email@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2383128616F6A5FE00E5B07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2383129A16F6A5FE00E5B07B /* main.m in Sources */,
+				2383129E16F6A5FE00E5B07B /* WSQAppDelegate.m in Sources */,
+				238312A716F6A5FE00E5B07B /* WSQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2383129616F6A5FE00E5B07B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2383129716F6A5FE00E5B07B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		238312A816F6A5FE00E5B07B /* WSQViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238312A916F6A5FE00E5B07B /* en */,
+			);
+			name = WSQViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		238312AB16F6A5FE00E5B07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		238312AC16F6A5FE00E5B07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		238312AE16F6A5FE00E5B07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSQRotaryViewExample/WSQRotaryViewExample-Prefix.pch";
+				INFOPLIST_FILE = "WSQRotaryViewExample/WSQRotaryViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-objc",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		238312AF16F6A5FE00E5B07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSQRotaryViewExample/WSQRotaryViewExample-Prefix.pch";
+				INFOPLIST_FILE = "WSQRotaryViewExample/WSQRotaryViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-objc",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2383128516F6A5FE00E5B07B /* Build configuration list for PBXProject "WSQRotaryViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238312AB16F6A5FE00E5B07B /* Debug */,
+				238312AC16F6A5FE00E5B07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238312AD16F6A5FE00E5B07B /* Build configuration list for PBXNativeTarget "WSQRotaryViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238312AE16F6A5FE00E5B07B /* Debug */,
+				238312AF16F6A5FE00E5B07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2383128216F6A5FE00E5B07B /* Project object */;
+}
